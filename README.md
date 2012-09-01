@@ -2,5 +2,7 @@ Given a directory of ROMS create a folder of SAVES that is filled with a .SAV fi
 for the RetroZone PowerPak.
 
 ```
+cd scripts/createSaves
+npm install optimist async underscore fs findit
 node createSaves.js -d ~/Dropbox/Games/nes/ROMS
 ```
