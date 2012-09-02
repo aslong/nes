@@ -14,7 +14,7 @@
 
   async = require('async');
 
-  DEFAULT_SAVE_FILE = "" + __dirname + "/8KBsave.sav";
+  DEFAULT_SAVE_FILE = "" + __dirname + "/32KBsave.sav";
 
   directory = argv.d;
 

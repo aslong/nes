@@ -5,7 +5,7 @@ exec = require('child_process').exec
 path = require('path')
 async = require('async')
 
-DEFAULT_SAVE_FILE = "#{__dirname}/8KBsave.sav"
+DEFAULT_SAVE_FILE = "#{__dirname}/32KBsave.sav"
 
 directory = argv.d
 console.log "About to build saves directory for the directory: #{directory}"
